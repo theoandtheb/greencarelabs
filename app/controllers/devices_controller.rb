@@ -6,6 +6,10 @@ class DevicesController < ApplicationController
 		print Test.last.burp.to_s
 	end
 
+	def fitbit
+
+	end
+
 private
 	def test_params
       params.require(:test).permit(:burp)
