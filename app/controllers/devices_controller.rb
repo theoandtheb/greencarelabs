@@ -10,6 +10,10 @@ class DevicesController < ApplicationController
 
 	end
 
+	def heyfromfitbit
+
+	end
+
 private
 	def test_params
       params.require(:test).permit(:burp)
