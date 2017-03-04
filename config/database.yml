@@ -1,10 +1,10 @@
 development: &default
   adapter: postgis
   encoding: UTF8
-  database: Rails.application.secrets.database_name
+  database: greencarelabs_gis
   pool: 5
-  username: Rails.application.secrets.database_user
-  password: Rails.application.secrets.database_password
+  username: postgres
+  password: esf823r
   timeout: 5000
   schema_search_path: "public,postgis"
   script_dir: /Applications/Postgres.app/Contents/Versions/9.3/share/postgresql/contrib/postgis-2.1
@@ -12,8 +12,8 @@ development: &default
 production:
   adapter: postgis
   encoding: UTF8
-  database: Rails.application.secrets.database_name
-  password: Rails.application.secrets.database_password
+  database: greencarelabs_production
+  password: esf823r
   username: deploy
   pool: 5
   timeout: 5000
