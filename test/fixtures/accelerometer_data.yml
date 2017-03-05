@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date_subm: 2017-03-05
+  time_subm: 2017-03-05 12:04:18
+  x: 1
+  'y': 1
+  z: 1
+
+two:
+  date_subm: 2017-03-05
+  time_subm: 2017-03-05 12:04:18
+  x: 1
+  'y': 1
+  z: 1
