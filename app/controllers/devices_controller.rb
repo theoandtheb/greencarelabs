@@ -14,6 +14,13 @@ class DevicesController < ApplicationController
 
 	end
 
+	def authedbyfitbit
+		@@fitbit_token = params[:access_token]
+		@@fitbit_token_type = params[:token_type]
+
+		redirect_to root_path, alert: "Fitbit device authenticated"
+	end
+
 private
 	def test_params
       params.require(:test).permit(:burp)

@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   post "devices/accel" => "devices#accel"
   post "devices/fitbit" => "devices#fitbit"
   get "devices/heyfromfitbit" => "devices#heyfromfitbit"
+  get "devices/Fauthedbyfitbit" => "devices#Fauthedbyfitbit"
+  get "home/fitter" => "home#fitter"
 end
